@@ -4,7 +4,39 @@ body {
 
 .logo {
     width: 300px;
+    margin-top: -50px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    height: 100px;
+    margin-top: 20px;
+}
+
+.socials {
+    justify-content: left;
+    margin-right: 20px;
+}
+
+.socials ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.socials ul li img {
+    height: 25px;
+    margin-left: 10px;
+    background-color: var(--background);
+}
+
+
+
+
+
 
 .line-1 {
     height: 20px;
@@ -185,28 +217,7 @@ a {
     margin-top: 55px;
 }
 
-.contact {
-    width: 100%;
-    text-align: center;
-    height: 100px;
-}
 
-.contact ul li {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(101, 101, 91);
-    font-size: 25px;
-    list-style-type: none;
-    display: inline-block;
-    width: 150px;
-    padding: 35px;
-    margin-right: 25px;
-}
-
-.contact ul li img {
-    height: 50px;
-    margin-left: 10px;
-    background-color: var(--background);
-}
 
 /* Smaller Laptops and Tablets */
 @media screen and (min-width: 391px) and (max-width: 778px) {
