@@ -41,27 +41,32 @@ body {
     background-color: var(--background);
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
-
 .logo {
     width: 300px;
     margin-top: -50px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .core {
     margin-top: 40px;
     background-color: rgb(215, 215, 209);
+    margin-bottom: 40px;
+    width: 1100px;
 }
 
 .about {
-
+    justify-content: center;
 }
 
 .about div {
     padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 .about img {
@@ -76,15 +81,68 @@ body {
 .about p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(101, 101, 91);
-    font-size: 15px;
+    font-size: 20px;
     display: inline-block;
-    width: 500px;
+    width: 750px;
     margin-left: 30px;
     margin-right: 30px;
+    text-align: center;
 }
 
+.divider {
+    justify-content: center;
+    display: flex;
+}
 
+.divider-line {
+    height: 2px;
+    width: 65%;
+    background-color: black;
+    border-radius: 25px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
 
+.work {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    justify-content: left;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: rgb(74, 74, 67);
+}
+
+.work-card {
+    box-shadow: 10px 10px 10px grey;
+    border: 2px solid rgb(202, 202, 195);
+    border-radius: 5px;
+    width: 40%;
+    display: flex;
+    padding: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.work-card img {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+.card-body {
+    margin: 10px;
+}
+.card-body h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
 
 .footer {
     color: rgb(225, 225, 194);
